@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Uncle Francing Photography</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <?php include 'includes/header.php'; ?>
+
+    <main>
+        <section id="contact-form">
+            <h2>Get In Touch</h2>
+            <p>Have a question or want to book a session? Fill out the form below or contact me directly.</p>
+            
+           
+            <form action="submit_contact.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+
+        <section class="contact-details">
+            <h3>Contact Information</h3>
+            <p><strong>Email:</strong> unclefrancing@gmail.com</p>
+            <p><strong>Phone:</strong> (63) 906-383-8030</p>
+            <p><strong>Location:</strong> San Manuel, Pangasinan</p>
+            <p><strong>Social Media:</strong> <a href="https://www.facebook.com/UncleFotography">Facebook</a></p>
+            <p><strong>Social Media:</strong> <a href="https://www.instagram.com/unclefrancing">Instagram</a></p>
+        </section>
+    </main>
+
+    <?php include 'includes/footer.php'; ?>
+    <script src="js/main.js"></script>
+</body>
+</html>

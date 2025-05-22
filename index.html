@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uncle Francing Photography - Capturing Moments</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <iframe src="includes/header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+    <main>
+        <section id="home">
+            <h1>Capturing Moments, Creating Memories</h1>
+            <p>Welcome to my photography portfolio. Discover the beauty through my lens.</p>
+            <a href="#portfolio" class="cta-button">View Portfolio</a>
+        </section>
+
+        <section id="portfolio">
+            <h2>Our Portfolio</h2>
+            <p>Browse through a selection of our finest work.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/portrait.jpg" alt="Portfolio Image 1">
+                    <div class="gallery-item-overlay">
+                        <div class="overlay-text">Portraiture</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/photo3.jpg" alt="Portfolio Image 2">
+                    <div class="gallery-item-overlay">
+                        <div class="overlay-text">Events</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/landscape.jpg" alt="Portfolio Image 3">
+                    <div class="gallery-item-overlay">
+                        <div class="overlay-text">Landscape</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/photo2.jpg" alt="Portfolio Image 4">
+                    <div class="gallery-item-overlay">
+                        <div class="overlay-text">Candid</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/fashion.jpg" alt="Portfolio Image 5">
+                    <div class="gallery-item-overlay">
+                        <div class="overlay-text">Fashion</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/street.jpg" alt="Portfolio Image 6">
+                    <div class="gallery-item-overlay">
+                        <div class="overlay-text">Street</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/wedding.jpg" alt="Portfolio Image 7">
+                    <div class="gallery-item-overlay">
+                        <div class="overlay-text">Wedding</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/abstract.jpg" alt="Portfolio Image 8">
+                    <div class="gallery-item-overlay">
+                        <div class="overlay-text">Abstract</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="content">
+                <div class="profile-pic">
+                    <img src="images/profile-pic.jpg">
+                </div>
+                <div class="bio">
+                    <h3>Hello, I'm Mark Francis Soriano</h3>
+                    <p>Welcome to Uncle Francing Photography! I am a passionate photographer specializing in portraits, landscapes, events and videos. My journey into photography began when I started to hold a camera for fun (that was just a digi camera) the I'm just taking random shots until I got hooked into it.</p>
+                    <p>My philosophy is to capture the essence of every moment, telling a story through each photograph. I believe that a great photo is not just about technical skill, but about connecting with the subject and conveying emotion.</p>
+                    <p>Over the years, I've had the privilege of working with wonderful families, creative individuals, leading brands. Each project is a new adventure, and I strive to deliver images that my clients will cherish for a lifetime.</p>
+                    <p>When I'm not behind the camera, I enjoy playing MOBA games, playing Basketball, travelling and watching movies just to kill time.</p>
+                    <p>Thank you for visiting my site. I look forward to the possibility of working with you and capturing your special moments!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <p>Have a question or want to book a session? Contact me directly.</p>
+            <div class="contact-details page-contact-details">
+                <h3>Contact Information</h3>
+                <p><strong>Email:</strong> ufpdofficial@gmail.com</p>
+                <p><strong>Phone:</strong> (+63) 915-645-9145</p>
+                <p><strong>Location:</strong> San Manuel, Pangasinan</p>
+            </div>
+        </section>
+    </main>
+
+        <iframe src="includes/footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+    
+    <div id="lightbox-modal" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <a class="lightbox-prev">&#10094;</a>
+        <a class="lightbox-next">&#10095;</a>
+        <div id="lightbox-caption"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
