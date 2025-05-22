@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <?php include 'includes/header.php'; ?>
+    <iframe src="includes/header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
 
     <main>
         <section id="portfolio-gallery">
@@ -28,7 +28,7 @@
         </section>
     </main>
 
-    <?php include 'includes/footer.php'; ?>
+    <iframe src="includes/footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
     <script src="js/main.js"></script>
 </body>
 </html>
