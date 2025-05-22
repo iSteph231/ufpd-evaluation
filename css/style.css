@@ -122,7 +122,7 @@ main > section {
 
 
 #home {
-    background-image: url('../images/bg-photo.jpg');
+    background-image: url('images/bg-photo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
